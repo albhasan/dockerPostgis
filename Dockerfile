@@ -10,7 +10,8 @@ RUN apt-get -qq update && apt-get install --fix-missing -y --force-yes \
 	sudo \ 
 	postgresql-9.3-postgis-2.1 \ 
 	postgresql-9.3-postgis-2.1-scripts \
-	nano 
+	nano \ 
+	ssh
 
 
 # Set environment
